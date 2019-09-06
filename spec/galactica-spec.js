@@ -17,4 +17,16 @@ describe('Galactica', function() {
   it('jupiterAge function should return 7.588', function() {
     expect(testGalactica.jupiterAge()).toEqual(7.588532883642496);
   });
+  it('leftMarsAge function should return  -10.106382978723405', function() {
+   expect(testGalactica.leftMarsAge()).toEqual( -10.106382978723405);
+  });
+  //it('leftMercuryAge function should return -79.16666666666667', function() {
+  //  expect(testGalactica.leftMercuryAge()).toEqual(-79.16666666666667);
+  //});
+  //it('leftVenusAge function should return -30.64516129032258' function() {
+  //  expect(testGalactica.leftVenusAge()).toEqual(-30.64516129032258);
+  //});
+  //it('leftJupiterAge function should return -1.6020236087689714', function() {
+  //  expect(testGalactica.leftJupiterAge()).toEqual(-1.6020236087689714);
+  // });
 });
