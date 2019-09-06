@@ -10,6 +10,8 @@ $(document).ready(function(){
     var inputtedAge = $("input#userage").val();
     var newGalactica = new Galactica (inputtedAge);
      $("#mars-age").text(newGalactica.marsAge());
-
+     $("#venus-age").text(newGalactica.venusAge());
+     $("#mercury-age").text(newGalactica.mercuryAge());
+     $("#jupiter-age").text(newGalactica.jupiterAge());
   });
 });
