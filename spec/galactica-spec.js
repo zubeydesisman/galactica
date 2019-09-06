@@ -3,7 +3,7 @@ describe('Galactica', function() {
 
     let testGalactica = new Galactica("90");
     it('surpassedAge function should return 19', function() {
-      expect(testGalactica.age).toEqual(19);
+      expect(testGalactica.surpassedAge()).toEqual(19);
     });
   });
 //     it('marsAge function should return 47.8728404', function() {
