@@ -17,6 +17,7 @@ $(document).ready(function(){
      $("#left-mercury").text(newGalactica.leftMercuryAge());
      $("#left-venus").text(newGalactica.leftVenusAge());
      $("#left-jupiter").text(newGalactica.leftJupiterAge());
-     $("#surpassed").text("You've surpassed the average life expectancy" + newGalactica.surpassedAge() + "years.Good Job!");
+     $("#surpassed").text("You've surpassed the average life expectancy " + newGalactica.surpassedAge() + " years.Good Job!");
+     $("#leftAgeEarth").text("You've " + newGalactica.leftAgeEarth() + " years to live!Good Lock!");
   });
 });
