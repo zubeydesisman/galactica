@@ -1,1 +1,24 @@
-
+h1 {
+  text-align: center;
+  color: darkblue;
+}
+h2 {
+  text-align: center;
+  color: silver;
+}
+h6 {
+  text-align: center;
+}
+form {
+  text-align: center;
+}
+.result {
+  text-align: center;
+}
+p {
+  font-style: oblique;
+  font-size-adjust: auto;
+}
+body {
+  background-color: silver;
+}
