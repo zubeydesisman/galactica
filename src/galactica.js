@@ -8,7 +8,7 @@ Galactica.prototype.surpassedAge = function () {
   }
 }
 Galactica.prototype.marsAge = function () {
-  return this.age / 1.88
+  return (this.age / 1.88);
 }
 Galactica.prototype.mercuryAge = function () {
   return this.age / .24
