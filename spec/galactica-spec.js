@@ -20,9 +20,9 @@ describe('Galactica', function() {
   it('leftMarsAge function should return  -10.106382978723405', function() {
    expect(testGalactica.leftMarsAge()).toEqual( -10.106382978723405);
   });
-  //it('leftMercuryAge function should return -79.16666666666667', function() {
-  //  expect(testGalactica.leftMercuryAge()).toEqual(-79.16666666666667);
-  //});
+  it('leftMercuryAge function should return -79.16666666666667', function() {
+   expect(testGalactica.leftMercuryAge()).toEqual(-79.16666666666667);
+  });
   //it('leftVenusAge function should return -30.64516129032258' function() {
   //  expect(testGalactica.leftVenusAge()).toEqual(-30.64516129032258);
   //});
