@@ -26,7 +26,7 @@ describe('Galactica', function() {
   it('leftVenusAge function should return -30.64516129032258', function() {
     expect(testGalactica.leftVenusAge()).toEqual(-30.64516129032258);
   });
-  //it('leftJupiterAge function should return -1.6020236087689714', function() {
-  //  expect(testGalactica.leftJupiterAge()).toEqual(-1.6020236087689714);
-  // });
+  it('leftJupiterAge function should return -1.6020236087689714', function() {
+   expect(testGalactica.leftJupiterAge()).toEqual(-1.6020236087689714);
+   });
 });
