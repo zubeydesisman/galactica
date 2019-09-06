@@ -11,9 +11,9 @@ Galactica.prototype.marsAge = function () {
  }
 
  Galactica.prototype.venusAge = function () {
-   return this.age / .62
+   return this.age * .62
  }
 
  Galactica.prototype.jupiterAge = function () {
-   return this.age / .11.86 
+   return this.age * 11.86
  }
